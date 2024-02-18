@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1140px;
+    max-width: 100%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    right: 0;
+    padding: 30px 0;
+    background: #111;
+}
+
+
+span{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFF;
+}
+
+a {font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8B8E99;    
+    text-decoration: none;
+}
+.nav-links{
+    display: grid;
+    grid-template-columns: 3;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-link-logo{
+    display: flex;align-items: center;
+}
+
+.nav-link-group{
+    width: 475px;
+    display: flex;
+    gap:8px;
+    
+    justify-content: space-between;
+}
+
+
+/* main//////////////////// */
+
+.section-top{
+    
+/* margin-bottom: 100px; */
+    padding: 234px 0 100px 0;
+    background: #111;
+}
+
+.section-top-card1 h1{
+    width: 457px;
+    font-family: Poppins;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFF;
+}
+
+.section-top-card1 p{
+    width: 456px;
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #8B8E99;
+
+padding-top: 20px;
+
+}
+
+.section-top-cards{
+    
+margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+input{
+    margin-top: 50px;
+    width: 443px;
+height: 60px;
+top: 613px;
+border-radius: 15px;
+padding-left: 50px;
+}
+
+.btn{
+    width: 112px;
+height: 45px;
+top: 620px;
+left: 322px;
+border-radius: 8px;
+background: #3858D6;
+transform: translateX(-125px);
+border: none;
+
+}
+
+/* section2 */
+
+
+.section-2-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 375px);
+    padding-top: 10px;
+}
+
+.section-2-card1{
+    margin-top: 50px;
+    display: flex;
+width: 355px;
+height: 240px;
+border-radius: 12px;
+background: #F6F6F6;
+padding: 30px;
+}
+
+.p-1{
+    padding-top: 20px;
+padding-left: 20px;
+    font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #1E1D1D;
+}
+
+.p-2{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #8B8E99;
+}
